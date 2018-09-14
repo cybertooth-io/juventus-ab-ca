@@ -20,5 +20,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# ignore the compiled css
+# caches
+#/.sass-cache
+
+# compiled css
 /src/styles/css
