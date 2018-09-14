@@ -19,7 +19,7 @@ class App extends Component {
           </section>
           <section>
             <div className="container">
-              <h1>Welcome</h1>
+              <h1>Welcome Test</h1>
             </div>
           </section>
         </div>
