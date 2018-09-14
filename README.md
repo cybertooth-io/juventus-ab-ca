@@ -14,7 +14,7 @@ Two separate processes are required to run the website.
 ### In One Terminal Tab - Watch For SASS Changes
 
 ```bash
-$ yarn run sass
+$ yarn run sass:watch
 ```
 
 ### In Second Terminal Tab - Start The Webserver
@@ -22,7 +22,7 @@ $ yarn run sass
 ```bash
 $ git clone git@github.com:cybertooth-io/juventus-ab-ca.git
 $ yarn install
-$ yarn run start 
+$ yarn run start
 ```
 
 ## Building For Production
