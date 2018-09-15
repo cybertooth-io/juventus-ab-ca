@@ -2,32 +2,34 @@
 
 ## Prerequisites
 
-* Get `Node-10`
-* Get `yarn`
+* Git
+* Use the latest version of Node (we started with Node-10); consider [NVM](https://github.com/creationix/nvm)
+* We use [`yarn`; go get it](https://yarnpkg.com/en/docs/install)
 
-## Getting Started
+## Development Environment - Getting Started
 
-Two separate processes are required to run the website.
-
-[Check out this blog for this setup.](https://hackernoon.com/using-sass-with-create-react-app-without-ejecting-b5f4f827ed9e) 
-
-### In One Terminal Tab - Watch For SASS Changes
-
-```bash
-$ yarn run sass:watch
-```
-
-### In Second Terminal Tab - Start The Webserver
+### Clone Repo
 
 ```bash
 $ git clone git@github.com:cybertooth-io/juventus-ab-ca.git
+```
+
+### Running 
+
+```bash
 $ yarn install
 $ yarn run start
 ```
 
+Two separate processes are required to run the website in development mode.  The first thread is watching
+the SASS files for changes in order to compile to CSS>  The second thread is the webserver itself. 
+
+[This blog post helped create this setup.](https://hackernoon.com/using-sass-with-create-react-app-without-ejecting-b5f4f827ed9e)
+
+We're also using [`concurrently`](https://www.npmjs.com/package/concurrently) for the `start` script.
+
 ## Building For Production
 
-
-# TODO
-
-Use concurrent module to run both at the same time
+```bash
+$ yarn run build
+```
