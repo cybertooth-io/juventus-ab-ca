@@ -16,6 +16,14 @@ class App extends Component {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
               </div>
             </nav>
+            <div className="container-fluid">
+              <div className="row row-juventus-bars">
+                <div className="col"></div>
+                <div className="col"></div>
+                <div className="col"></div>
+                <div className="col"></div>
+              </div>
+            </div>
           </section>
           <section>
             <div className="container">

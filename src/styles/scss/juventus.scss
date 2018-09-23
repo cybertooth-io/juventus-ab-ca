@@ -1,0 +1,22 @@
+$color-juventus-navy: #1C3664;
+$color-juventus-grey: #cbcccb;
+$color-juventus-yellow: #ffcb3f;
+$color-juventus-blue: #1a65ab;
+
+.row.row-juventus-bars {
+  .col {
+    height: 5px;
+  }
+  .col:nth-child(1) {
+    background-color: $color-juventus-navy;
+  }
+  .col:nth-child(2) {
+    background-color: $color-juventus-grey;
+  }
+  .col:nth-child(3) {
+    background-color: $color-juventus-yellow;
+  }
+  .col:nth-child(4) {
+    background-color: $color-juventus-blue;
+  }
+}
